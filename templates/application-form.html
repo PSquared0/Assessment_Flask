@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+    <h1>Sqyush is growing.</h1>
+    <h2>Grow with us.</h2>
+    <div class="boxed">
+      <p> We are building the best team in the melon business so we can continue to change the way the world thinks about melons. Working together and sharing ideas, we innovate our customers' melon needs all over the world. Our partners and customers demand the best from their melons, and we are up for the challenge. Are you? Explore Engineering-Software Jobs at Squysh. Join us and help us become the #1 Melon Company in the World.
+      </p>
+    </div>
+      <form action="/application-response.html" method="post">
+      <label for="firstname">First Name:</label><br>
+      <input id="firstname" type="text" name="firstname"><br>
+      <label for="lastname">Last Name:</label><br>
+      <input id="lastname" class=boldtext type="text" name="lastname"><br>
+      <label for="desiredsalary">Desired Salary:</label><br>
+      <input id="desiredsalary" type="text" name="desiredsalary" pattern="[0-9]{1,8}" title="Numbers Only Please, No Commas"><br>
+      <label for="position">Please select the postion you are interested in:</label><br>
+      <select id="position" name=position>
+      <option value="Software Engineer">Software Engineer</option>
+      <option value="QA Engineer">QA Engineer</option>
+      <option value="Product Manager">Product Manager</option>
+      </select><br>
+    <input type="submit" value="Submit">
+    </form>
+
+{% endblock %}

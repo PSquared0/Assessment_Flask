@@ -1,0 +1,16 @@
+/* Your CSS goes here */
+input[type=text] {
+    background-color: yellow;
+}
+
+input[type=submit] {
+    background-color: yellow;
+}
+.boldtext {
+    font-weight: bold;
+}
+.boxed {
+    border: 2px #ff6666 ;
+    border-style: dotted;
+    text-align: center;
+}
